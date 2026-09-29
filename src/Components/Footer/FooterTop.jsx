@@ -10,7 +10,7 @@ const FooterTop = () => {
         "
             style={{ backgroundImage: "url('/images/footer.png')" }}
         >
-            <div className='flex flex-col gap-10 lg:flex-col lg:items-start lg:justify-between'>
+            <div className='footer-container flex w-full flex-col gap-10 lg:flex-row lg:items-start lg:justify-between'>
                 <FooterTopLeft />
                 <FooterForm />
             </div>
