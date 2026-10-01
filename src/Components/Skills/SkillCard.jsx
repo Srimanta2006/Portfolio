@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillCard = ({ name, icon }) => {
     return (
-        <div className='
+        <article className='
             flex items-center
             border border-transparent rounded-[5px]
             px-3 py-2.5 gap-2 sm:px-5 sm:py-3.5 sm:gap-3.5
@@ -21,7 +21,7 @@ const SkillCard = ({ name, icon }) => {
                 </h3>
                 <p className='text-[clamp(0.8rem,1.3vw,1.2rem)]'>Intermediate</p>
             </div>
-        </div>
+        </article>
     )
 }
 

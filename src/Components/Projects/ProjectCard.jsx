@@ -35,7 +35,7 @@ const ProjectCard = (props) => {
   return (
     <>
       {/* CARD */}
-      <div className="flex h-[65vh] w-full flex-col gap-3 rounded-xl bg-[#F5F5F5] p-3 sm:gap-4 sm:p-4 md:w-[50vw]">
+      <article className="flex h-[65vh] w-full flex-col gap-3 rounded-xl bg-[#F5F5F5] p-3 sm:gap-4 sm:p-4 md:w-[50vw]">
 
         {/* CARD HEADER */}
         <div className="flex items-start justify-between p-2">
@@ -76,7 +76,7 @@ const ProjectCard = (props) => {
           </div>
           <img ref={imgRef} src={props.images[currentImage]} alt={props.name} className=" h-full w-full rounded-lg object-cover" />
         </div>
-      </div>
+      </article>
     </>
   )
 }

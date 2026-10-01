@@ -86,7 +86,7 @@ const Projects = () => {
 
   return (
 
-    <div className="mt-204 overflow-hidden bg-white text-black sm:mt-32 lg:mt-50">
+    <section className="mt-204 overflow-hidden bg-white text-black sm:mt-32 lg:mt-50">
 
       <section
         ref={sectionRef}
@@ -134,7 +134,7 @@ const Projects = () => {
           })}
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 

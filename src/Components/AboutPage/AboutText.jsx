@@ -38,11 +38,13 @@ const AboutText = () => {
     }, []);
 
     return (
-        <div className="page w-full px-4 sm:px-6 md:px-8">
+        <section className="page w-full px-4 sm:px-6 md:px-8" aria-labelledby="about-intro">
             <div className="space"></div>
 
             <h1
                 ref={textRef}
+                id="about-intro"
+                itemProp="description"
                 className="text w-full max-w-5xl m-auto text-[8vw] leading-[1.1] sm:text-[6vw] md:text-[4vw] lg:text-[3vw] lg:leading-[3vw] text-center font-[font1] font-bold"
             >
                 {words.map((word, index) => (
@@ -51,7 +53,7 @@ const AboutText = () => {
                     </span>
                 ))}
             </h1>
-        </div>
+        </section>
     );
 };
 

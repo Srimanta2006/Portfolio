@@ -84,7 +84,7 @@ const Skills = () => {
     } );
 
     return (
-        <div ref={skillsSectionRef} className='skills-section min-h-screen bg-white px-4 py-12 sm:px-6 md:px-10 lg:px-16'>
+        <section ref={skillsSectionRef} className='skills-section min-h-screen bg-white px-4 py-12 sm:px-6 md:px-10 lg:px-16'>
             <div className='flex flex-col justify-center items-center text-center'>
                 <div className='flex w-full flex-col justify-center items-center'>
                     <h1 className='uppercase text-2xl font-semibold text-black tracking-widest sm:text-3xl md:text-4xl'>my skills</h1>
@@ -104,7 +104,7 @@ const Skills = () => {
                     );
                 })}
             </div>
-        </div>
+        </section>
     )
 }
 

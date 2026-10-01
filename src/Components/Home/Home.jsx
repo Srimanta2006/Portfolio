@@ -4,10 +4,10 @@ import Hero from './Hero'
 
 const Home = () => {
   return (
-    <div className='h-auto'>
+    <section className='h-auto'>
         <Navbar />
         <Hero />
-    </div>
+    </section>
   )
 }
 

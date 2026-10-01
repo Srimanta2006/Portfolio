@@ -50,7 +50,7 @@ const FooterForm = () => {
   }
 
   return (
-    <div className='w-full max-w-3xl text-white flex flex-col gap-8 sm:gap-10 lg:gap-15'>
+    <section className='w-full max-w-3xl text-white flex flex-col gap-8 sm:gap-10 lg:gap-15'>
       <div className='flex gap-4 sm:gap-6 lg:gap-8 items-center'>
         <FaLocationArrow className='w-6 h-6 sm:w-8 sm:h-8 shrink-0' color='#CBFE01' />
         <h1 className='uppercase text-white text-3xl sm:text-4xl lg:text-[2.6vw] lg:leading-[2.5vw] font-semibold'>Let's talk</h1>
@@ -111,7 +111,7 @@ const FooterForm = () => {
           SEND MESSAGE
         </button>
       </form>
-    </div>
+    </section>
   )
 }
 

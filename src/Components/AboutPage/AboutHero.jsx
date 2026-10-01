@@ -7,7 +7,9 @@ const AboutHero = () => {
         <img
           className='h-full w-full object-cover'
           src="/images/a1.png"
-          alt="Portrait"
+          alt="Portrait of a front-end developer"
+          fetchPriority="high"
+          decoding="async"
         />
       </div>
       <div className='flex h-auto w-full max-w-2xl flex-col items-start gap-4 p-0 sm:gap-5 md:p-2 lg:h-full lg:w-[55vw] lg:max-w-none'>

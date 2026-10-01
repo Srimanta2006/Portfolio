@@ -4,10 +4,10 @@ import AboutHero from './AboutHero'
 
 const About = () => {
   return (
-    <div className=' h-screen '>
+    <section className=' h-screen '>
       <AboutText />
       <AboutHero />
-    </div>
+    </section>
   )
 }
 

@@ -3,7 +3,7 @@ import { navBarContext } from "../Context/NavContext";
 const Navbar = () => {
   const [navBarOpen, setNavBarOpen] = useContext(navBarContext);
   return (
-    <div className="fixed top-0 left-0 right-0 z-9990 bg-white shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-9990 bg-white shadow-md">
       <div className="flex items-center justify-between px-3 sm:px-6 py-3 sm:py-5 w-full">
 
         {/* Logo */}
@@ -12,26 +12,6 @@ const Navbar = () => {
             <img className="max-h-full max-w-full object-contain" src="/images/fullLogo.png" alt="Logo" />
           </div>
         </div>
-
-        {/* Social icons */}
-        {/* <div className="flex items-center p-1 gap-2">
-          <div className="p-3 rounded-sm shadow-[0_8px_0_rgba(0,0,0,0.12)] h-15 w-15 cursor-pointer active:scale-95 flex items-center justify-center">
-            <i className="text-3xl ri-github-fill"></i>
-          </div>
-
-          <div className="p-3 rounded-sm shadow-[0_8px_0_rgba(0,0,0,0.12)] h-15 w-15 cursor-pointer active:scale-95 flex items-center justify-center">
-            <i className="text-3xl ri-facebook-circle-fill"></i>
-          </div>
-
-          <div className="p-3 rounded-sm shadow-[0_8px_0_rgba(0,0,0,0.12)] h-15 w-15 cursor-pointer active:scale-95 flex items-center justify-center">
-            <i className="text-3xl ri-linkedin-box-fill"></i>
-          </div>
-
-          <div className="p-3 rounded-sm shadow-[0_8px_0_rgba(0,0,0,0.12)] h-15 w-15 cursor-pointer active:scale-95 flex items-center justify-center">
-            <i className="text-3xl ri-twitter-x-line"></i>
-          </div>
-        </div> */}
-
         {/* Right side */}
         <div className="flex items-center gap-2 sm:gap-5">
 
@@ -82,7 +62,7 @@ const Navbar = () => {
         </div>
       )}
 
-    </div>
+    </nav>
   );
 };
 

@@ -14,12 +14,12 @@ const App = () => {
       <Cursor />
       <BottomArrow />
       <FullNav />
-      <main>
-        <section id="home"><Home /></section>
-        <section id="about"><About /></section>
-        <section id="projects"><Projects /></section>
-        <section id="skills"><Skills /></section>
-        <section id="contact"><Footer /></section>
+      <main aria-label="Portfolio content">
+        <section id="home" aria-label="Home"><Home /></section>
+        <section id="about" aria-label="About"><About /></section>
+        <section id="projects" aria-label="Projects"><Projects /></section>
+        <section id="skills" aria-label="Skills"><Skills /></section>
+        <section id="contact" aria-label="Contact"><Footer /></section>
       </main>
     </div>
   )
