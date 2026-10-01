@@ -16,7 +16,7 @@ const Hero = () => {
         })
     },[])
     return (
-        <div className='relative mt-20 md:mt-30 h-[110svh] md:h-[150vh] w-full overflow-hidden scroll-smooth'>
+        <section className='relative mt-20 md:mt-30 h-[110svh] md:h-[150vh] w-full overflow-hidden scroll-smooth'>
             <div className=' h-fit'>
                 <div className='overflow-hidden absolute w-full z-0 top-[8%] md:top-[10%] left-0 right-0 pt-5'>
                     <h1 className='split text-center uppercase text-[19vw] md:text-[22vw] font-[font1] font-semibold leading-[17vw] md:leading-[18vw]'>Developer</h1>
@@ -26,7 +26,7 @@ const Hero = () => {
                         className='h-full max-w-full w-auto object-contain object-bottom
 
                         '
-                        src="/public/images/myImg.png" alt="" />
+                        src="/public/images/myImg.png" alt="hero_image" />
                 </div>
             </div>
 
@@ -84,7 +84,7 @@ const Hero = () => {
                 </a>
             </div>
 
-        </div>
+        </section>
     )
 }
 
