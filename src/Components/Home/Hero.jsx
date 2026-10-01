@@ -23,10 +23,8 @@ const Hero = () => {
                 </div>
                 <div className='absolute right-[2vw] md:right-[8vw] top-[18%] md:top-0 w-[88vw] md:w-[75vw] h-[48vh] md:h-[95vh] flex items-end justify-center'>
                     <img
-                        className='h-full max-w-full w-auto object-contain object-bottom
-
-                        '
-                        src="/public/images/myImg.png" alt="hero_image" />
+                        className='h-full max-w-full w-auto object-contain object-bottom'
+                        src="/images/myImg.png" alt="hero_image" />
                 </div>
             </div>
 
