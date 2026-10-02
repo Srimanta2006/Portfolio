@@ -6,15 +6,15 @@ gsap.registerPlugin(SplitText);
 
 
 const Hero = () => {
-    let splitText = new SplitText(".split",{type: "chars"});
+    let splitText = new SplitText(".split", { type: "chars" });
     let chars = splitText.chars;
-    useGSAP(()=>{
-        gsap.from(chars,{
+    useGSAP(() => {
+        gsap.from(chars, {
             yPercent: 100,
             stagger: 0.1,
             duration: 0.4,
         })
-    },[])
+    }, [])
     return (
         <section className='relative mt-20 md:mt-30 h-[110svh] md:h-[150vh] w-full overflow-hidden scroll-smooth'>
             <div className=' h-fit'>
@@ -42,12 +42,13 @@ const Hero = () => {
                         <span className='h-4 w-4 rounded-full bg-[#FF5101]'></span>
                         <p className='text-xs md:text-[1vw] leading-tight'>Avaliable for opportunities</p>
                     </div>
-                    <p className='text-sm md:text-[1.2vw] font-bold uppercase font-[font1]'>Hello! I'm</p>
-                    <p className='text-xl md:text-[1.7vw] uppercase font-semibold font-[font1]'>srimanta Nayak</p>
-                    <p className='text-xs md:text-[1vw] uppercase font-[font1] text-black/65'>Frontend Developer</p>
-                    <div className='h-0.5 bg-black/70 w-12 md:w-[5vw] rounded-full mt-3'></div>
-                    <p className='mt-4 md:mt-10 text-base md:text-xl font-[font4]'>
-                        I build responsive, high-performance websites and exceptional digital experiences
+                    <p className="text-sm md:text-[1.2vw] font-bold uppercase font-[font1]">Hello! I'm</p>
+                    <h1 className="text-xl md:text-[1.7vw] uppercase font-semibold font-[font1]">Srimanta Nayak</h1>
+                    <p className="text-base md:text-[1.2vw] uppercase font-[font1]">Frontend Developer</p>
+                    <div className="h-0.5 bg-black/70 w-12 md:w-[5vw] rounded-full mt-3"></div>
+                    <p className="mt-4 md:mt-10 text-base md:text-xl font-[font1]">
+                        I build responsive, interactive and high-performance websites
+                        using React, JavaScript, GSAP and modern web technologies.
                     </p>
                 </div>
             </div>
